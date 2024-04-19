@@ -2,7 +2,7 @@
 
 
 //LET AND CONST- BLOCK LEVEL SCOPE and VAR:- GLOBAL LEVEL SCOPE
-
+// hoisting is available in Var only
 
 // {
 //     const no=20;{
