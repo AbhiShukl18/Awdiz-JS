@@ -25,3 +25,12 @@
  console.log(count);
 
  //Q, Find name of students whose name is greater than 4
+  
+ students=["Abhi","Rudra","Abhishek","Honey"]
+ for(i=0; i<=students.length-1; i++){
+
+    // console.log(students[i]);
+    if(students[i].length>4){
+        console.log(students[i]);
+    }
+ }
