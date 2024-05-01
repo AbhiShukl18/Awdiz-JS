@@ -1,5 +1,5 @@
-var array=[5,15,10,8,21,7];
-var target= 5;
+var array=[5,15,10,8,21,7,6,9,0];
+var target= 15;
 var sum=0;
 for(i=0; i<=array.length-1; i++)
 {
@@ -7,7 +7,8 @@ for(i=0; i<=array.length-1; i++)
 // console.log(array[i]);
 
 
-for(j=i+1; j<array.length;j++){
+for(j=i+1; j<array.length;j++)
+    {
     // console.log(i);
     // console.log(j);
     // console.log([array[j]]);
@@ -15,10 +16,10 @@ for(j=i+1; j<array.length;j++){
     // sum=array[i]+array[j];
      sum=array[i]+array[j];
     //  console.log(sum);
-if(sum===target)
+    if(sum===target)
         {
             console.log(array[i],array[j]);
             }
-        }
+    }
 }
 
