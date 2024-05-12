@@ -21,7 +21,7 @@ function find(array, word1){
 find(array, word1)
 
 
-// ----------LINEAR SEARCH---------------
+// ----------LINEAR SEARCH-----------------
 
 var input=[1,4,5,9,8,10];
 var target=1;
@@ -68,4 +68,4 @@ function binarySearch(array, target){
 
 }
 
-binarySearch(array, target)
+binarySearch(array, target);
