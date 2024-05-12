@@ -20,7 +20,7 @@ console.log(output1);
 
 var alpha=["a","b","h","i"];
 
-alpha.forEach((element)=>console.log(element));
+ab.forEach((element)=>console.log(element));
 
 
 
