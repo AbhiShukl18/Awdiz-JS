@@ -6,7 +6,7 @@ setTimeout(()=>{
     console.log("Inside set Timeout1");
 }, 5000)
 
-setTimeout(()=>{                    // executes first as time is less than previous
+setTimeout(()=>{                    // executes second as time is less than previous
 
     console.log("Inside set Timeout2");
 }, 2000)
