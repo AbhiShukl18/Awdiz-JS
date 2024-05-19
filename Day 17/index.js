@@ -3,7 +3,7 @@ function getdata(){
 return new Promise((resolve, reject)=>{
 
     setTimeout(()=>{
-        const result= false;
+        const result= true;
         if(result){
             resolve("Data Successfully received")
         }

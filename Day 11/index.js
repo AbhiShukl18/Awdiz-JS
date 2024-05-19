@@ -8,17 +8,17 @@ classes: ["11","12"],
 Strength: 50
 }
 
-console.log(schools.name);
-console.log(schools.classes);
-console.log(schools.Strength);
-console.log(schools.Stream);
-console.log(schools.Stream.Science)
+// console.log(schools.name);
+// console.log(schools.classes);
+// console.log(schools.Strength);
+// console.log(schools.Stream);
+// console.log(schools.Stream.Science)
 
-console.log(schools["name"])
-console.log(schools["classes"])
-console.log(schools["Strength"])
-console.log(schools["Stream"])
-console.log(schools["classes"].length)
+// console.log(schools["name"])
+// console.log(schools["classes"])
+// console.log(schools["Strength"])
+// console.log(schools["Stream"])
+// console.log(schools["classes"].length)
 
 const keys= Object.keys(schools);
 console.log(keys)
